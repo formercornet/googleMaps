@@ -5,7 +5,7 @@ import os
 
 
 GOOGLE_MAPS_API_KEY = ''
-gmaps = googlemaps.Client(key='AIzaSyBt5uzpFHWaIXp_MsKPh3dGAIzKM2u_o18')
+gmaps = googlemaps.Client(key='') #removed key for security purposes
 
 desktop_directory = os.path.join(os.path.expanduser('~'), 'Desktop')
 html_file_path = os.path.join(desktop_directory, 'delivery_routes_map.html')

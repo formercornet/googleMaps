@@ -1,1 +1,1 @@
-pip install -r requirements.txt
+A script that was done to visualize the route from locations of warehouses to distributors. It was mainly done for OSINT investigation, were you put the location of the target warehouse and their distributors, then we visualize the delivery route using google maps api.
